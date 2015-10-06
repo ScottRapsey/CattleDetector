@@ -78,7 +78,7 @@ public:
 		//names.push_back("car");
 		//models.push_back("car.xml");
 		names.push_back("cow");
-		models.push_back("G:\\Src\\Uncontrolled\\OpenCV\\Cattle\\CowDetector2\\Debug\\cow.xml");
+		models.push_back("cow.xml");
 
 		cv::Ptr<DPMDetector> detector = DPMDetector::create(models, names);
 		cout << "loaded " << models.size() << " models" << endl;

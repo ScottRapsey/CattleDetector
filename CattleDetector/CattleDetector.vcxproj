@@ -89,12 +89,12 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>G:\opencv\opencv_contrib-master\modules\dpm\include;G:\opencv\build\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\opencv\opencv_contrib-master\modules\dpm\include;..\..\..\..\opencv\build\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>G:\opencv\build\lib\Debug</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\..\..\opencv\build\lib\Debug</AdditionalLibraryDirectories>
       <AdditionalDependencies>opencv_calib3d300d.lib;opencv_core300d.lib;opencv_dpm300d.lib;opencv_features2d300d.lib;opencv_flann300d.lib;opencv_highgui300d.lib;opencv_imgproc300d.lib;opencv_imgcodecs300d.lib;opencv_ml300d.lib;opencv_objdetect300d.lib;opencv_photo300d.lib;opencv_stitching300d.lib;opencv_superres300d.lib;opencv_ts300d.lib;opencv_video300d.lib;opencv_videoio300d.lib;opencv_videostab300d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
